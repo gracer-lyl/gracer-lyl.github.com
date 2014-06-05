@@ -14,10 +14,10 @@ hello world
 
 1. 爱生活
 2. 爱老婆
-3. 爱盛大
+3. 爱老婆
 
 <http://ued.taobao.com>
-世界那么大，如何容下我？
+世界那么大？
 ================
 
 Some of these words *are emphasized*.
