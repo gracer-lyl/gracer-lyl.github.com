@@ -15,16 +15,10 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-
-    <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.3.2.0.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/font-awesome.4.1.0.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ ASSET_PATH }}/css/main.css?body=1" rel="stylesheet" type="text/css">
+    <!-- <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css"> -->
 
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
@@ -32,35 +26,57 @@
 
   </head>
 
-  <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
+  <body class="post-template page-template page custom-bg">
+    <nav class="navbar navbar-ghost" role="navigation">
+        <div class="container-fluid">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img width="50" src="{{ ASSET_PATH }}/img/logo.jpg" alt="logo"></a>
+          </div>
+  
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="navbar-collapse collapse" id="global-navbar" style="height: 1px;">
+            <ul class="nav navbar-nav">
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %}
+             {% include JB/pages_list %}
+            </ul>
+          <!-- <p class="navbar-text qq">QQ:309172035</p> -->
+          </div>
       </div>
-    </div>
+    </nav>
 
-    <div class="container-narrow">
-
-        <div class="content">
-          {{ content }}
+<!-- 内容区 -->
+<main id="post-page" class="container" role="main">
+    <div class="row">
+        <div class="col-md-10 col-md-push-1">
+            <article class="panel post tag-ghost-post tag-xia-zai page">
+                    {{ content }}
+                    <!-- <header class="panel-heading post-header">
+                        <h1 class="post-title">
+                            <a href="/download/"><span>下载 Ghost</span></a>
+                        </h1>
+                    </header> -->
+                    <!-- <section class="panel-body post-content">
+                    </section> -->
+            </article>
         </div>
-
-        <hr>
-        
-        <footer>
-          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-            采用 <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          </p>
-        </footer>
-
     </div>
+</main>
+
+    <!-- footer -->
+    <footer id="footer-content">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        采用 <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+      </p>
+    </footer>
 
     {% include JB/analytics %}
   </body>
