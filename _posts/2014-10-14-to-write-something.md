@@ -2,7 +2,7 @@
 layout: post
 title: "to write something"
 description: ""
-category: 
+category: lessons
 tags: []
 ---
 {% include JB/setup %}

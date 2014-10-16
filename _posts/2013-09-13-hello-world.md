@@ -2,7 +2,7 @@
 layout: post
 title: 你好，世界！
 description: 首次添加页面
-category: null
+category: lessons
 tags: []
 published: true
 tagline: 你好
