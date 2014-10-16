@@ -9,7 +9,7 @@ tagline: 你好
 ---
 {% include JB/setup %}
 
-hello world
+#hello world
 你好，世界！
 ###前端亮亮的GitHub博客###
 >这是一个段落
