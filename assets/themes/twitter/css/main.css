@@ -156,12 +156,15 @@ footer.page-wrap > div {
   color: #8e9798;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  padding: 20px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 #footer-content p {
   text-align: center;
   font-size: 14px;
-  margin: 0 20px 12px 0;
+  margin: 0;
 }
 #footer-content p i {
   color: #c3c8c9;
@@ -532,6 +535,7 @@ footer.page-wrap > div {
 /*---------------------------------
 6. Tag Sidebar
 ----------------------------------*/
+.container {margin-bottom: 60px;}
 @media (max-width: 992px) {
   main.container {
     width: auto;
