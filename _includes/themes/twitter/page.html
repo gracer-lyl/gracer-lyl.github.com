@@ -1,9 +1,18 @@
-<div class="page-header">
+<!-- <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 </div>
-
 <div class="row-fluid">
   <div class="span12">
     {{ content }}
   </div>
 </div>
+ -->
+<header class="panel-heading post-header">
+    <h1 class="post-title">
+        <a href="{{ page.url }}"><span>{{ page.title }}</span></a>
+    </h1>
+</header>
+
+<section class="panel-body post-content">
+	{{ content }}
+</section>
