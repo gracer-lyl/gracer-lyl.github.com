@@ -15,23 +15,59 @@
 3. Post items
 4. RWD
 ----------------------------------*/
+
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html{
+  color:#333;
+  background:#fff;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  text-rendering:optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 如果你的项目仅支持 IE9+ | Chrome | Firefox 等，推荐在 <html> 中添加 .borderbox 这个 class */
+html.borderbox *, html.borderbox *:before, html.borderbox *:after {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  border:0;
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section{
+  margin:0;
+  padding:0;
+}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section{
+  display:block;
+}
+
+/* HTML5 媒体文件跟 img 保持一致 */
+audio, canvas, video{
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+}
+
 /*---------------------------------
 1. Basic elements
 ----------------------------------*/
 body {
   background-attachment: fixed;
   background-color: #FFF;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  background-size: 100% auto;
+  background-repeat: repeat-y;
   background-image: url('../img/bg.jpg');
 }
-a {
-  color: #da6426;
-  text-decoration: none;
+/* 要注意表单元素并不继承父级 font 的问题 */
+body, button, input, select, textarea{
+  font:400 1em/1.8 Hiragino Sans GB, Microsoft Yahei, Avenir, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
-a:hover {
-  color: #FFF;
+a {
+  color: #1abc9c;
   text-decoration: none;
 }
 .loaded a {
@@ -43,7 +79,8 @@ a:hover {
 a:active,
 a:focus,
 a:hover {
-  color: #363636;
+  color: #555;
+  text-decoration: none;
 }
 img {
   max-width: 100%;
@@ -247,23 +284,23 @@ footer.page-wrap > div {
   text-align: center;
 }
 .pagination {
-  background: #da6426;
+  background: #1abc9c;
   border-radius: 0;
 }
 .pagination > li > a,
 .pagination > li > span {
   color: #fff;
-  padding: 0 34px;
+  padding: 0 30px;
   background: transparent;
   border: none;
-  height: 84px;
-  line-height: 84px;
+  height: 40px;
+  line-height: 40px;
 }
 .pagination > li > a .fa,
 .pagination > li > span .fa {
   font-size: 4em;
-  height: 84px;
-  line-height: 84px;
+  height: 40px;
+  line-height: 40px;
 }
 .pagination > li > a:hover {
   background: transparent;
@@ -276,14 +313,14 @@ footer.page-wrap > div {
   background: transparent;
 }
 .pagination .page-number {
-  border-left: 1px solid #c55a22;
-  border-right: 1px solid #c55a22;
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #EEE;
 }
 .pagination .page-number:hover {
   color: #fff;
   background-color: transparent;
-  border-left: 1px solid #c55a22;
-  border-right: 1px solid #c55a22;
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #EEE;
 }
 /*---------------------------------
 3. Post items
@@ -292,9 +329,9 @@ footer.page-wrap > div {
   position: relative;
   background: #ffffff;
   margin-bottom: 30px;
-  border-radius: 0;
+  border-radius: 5px;
   padding: 10px 20px;
-  opacity: 0.9;
+  /*opacity: 0.95;*/
 }
 .post-header {
   font-size: 12px;
@@ -336,7 +373,7 @@ footer.page-wrap > div {
 }
 .post-header h1 a:hover,
 .post-header h2 a:hover {
-  color: #da6426;
+  color: #1abc9c;
 }
 .post-header h1 a:before,
 .post-header h2 a:before {
@@ -496,18 +533,19 @@ footer.page-wrap > div {
 }
 .navbar-ghost .navbar-nav > li > a {
   color: #fff;
+  font-size: 14px;
   text-align: center;
 }
 .navbar-ghost .navbar-nav > li > a:hover,
 .navbar-ghost .navbar-nav > li > a:focus {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(26, 188, 156, 0.4);
 }
 .navbar-ghost .navbar-nav > .active > a,
 .navbar-ghost .navbar-nav > .active > a:hover,
 .navbar-ghost .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #1abc9c;
 }
 .navbar-ghost .qq {
   color: #fff;

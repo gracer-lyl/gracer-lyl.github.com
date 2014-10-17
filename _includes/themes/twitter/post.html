@@ -29,21 +29,44 @@
   {% endunless %}  
 
     <hr>
-    <div class="pagination">
-      <ul>
-      {% if page.previous %}
-        <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-      {% else %}
-        <li class="prev disabled"><a>&larr; Previous</a></li>
-      {% endif %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-      {% if page.next %}
-        <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-      {% else %}
-        <li class="next disabled"><a>Next &rarr;</a>
-      {% endif %}
+
+    <nav class="page-pagination">
+      <ul class="pagination">
+          {% if page.previous %}
+          <li>
+            <a class="newer-posts" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">
+              <!-- <i class="fa fa-angle-left"></i> -->
+              &larr; 上一页
+            </a>
+          </li>
+          {% else %}
+          <li class="disabled">
+            <span class="newer-posts">
+              <!-- <i class="fa fa-angle-left"></i> -->
+              &larr; 上一页
+            </span>
+          </li>
+          {% endif %}
+
+          <li><a class="page-number" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">存档</a></li>
+          {% if page.next %}
+          <li>
+              <a class="older-posts" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">
+                <!-- <i class="fa fa-angle-right"></i> -->
+                下一页 &rarr;
+              </a>
+          </li>
+          {% else %}
+          <li class="disabled">
+            <span class="older-posts">
+              <!-- <i class="fa fa-angle-right"></i> -->
+              下一页 &rarr;
+            </span>
+          </li>
+          {% endif %}
       </ul>
-    </div>
+    </nav>
+    
     <hr>
     {% include JB/comments %}
   <!-- </div> -->
