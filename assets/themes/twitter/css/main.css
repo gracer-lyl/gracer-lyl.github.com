@@ -61,6 +61,8 @@ body {
   background-size: 100% auto;
   background-repeat: repeat-y;
   background-image: url('../img/bg.jpg');
+  background-position: center center;
+  /*background: #efefef;*/
 }
 /* 要注意表单元素并不继承父级 font 的问题 */
 body, button, input, select, textarea{
@@ -521,8 +523,9 @@ footer.page-wrap > div {
 5. Bootstrap components
 ----------------------------------*/
 .navbar-ghost {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   margin-bottom: 40px;
+  box-shadow: rgba(0,0,0,0.05) 0 1px 5px
 }
 .navbar-ghost .navbar-toggle:hover,
 .navbar-ghost .navbar-toggle:focus {
