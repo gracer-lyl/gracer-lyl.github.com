@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 首页
-description: 欢迎来到kissy小鬼的世界
+description: 欢迎来到kissy小鬼的乐土
 tagline: Supporting tagline
 group: navigation
 ---

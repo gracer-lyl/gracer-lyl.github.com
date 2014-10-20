@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 写一些篇章
+title: 写一些东西吧
 description: ""
-category: 课程
+category: 生活
 tags: [零点]
 ---
 {% include JB/setup %}
