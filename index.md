@@ -1,7 +1,9 @@
 ---
 layout: page
-title: 欢迎来到kissy小鬼的世界
+title: Home
+page_title: 欢迎来到kissy小鬼的世界
 tagline: Supporting tagline
+group: navigation
 ---
 {% include JB/setup %}
 
