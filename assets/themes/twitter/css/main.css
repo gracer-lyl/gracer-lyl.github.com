@@ -537,7 +537,7 @@ footer.page-wrap > div {
   background-color: transparent;
 }
 .navbar-ghost .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+  background-color: #666;
 }
 .navbar-ghost .navbar-nav > li > a {
   color: #1abc9c;
