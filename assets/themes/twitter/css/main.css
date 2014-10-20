@@ -191,7 +191,7 @@ footer.page-wrap > div {
   margin-left: 170px;
 }
 #footer-content {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.98);
   color: #000;
   font-family: Arial, sans-serif;
   font-size: 12px;
@@ -523,9 +523,9 @@ footer.page-wrap > div {
 5. Bootstrap components
 ----------------------------------*/
 .navbar-ghost {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.98);
   margin-bottom: 40px;
-  box-shadow: rgba(0,0,0,0.05) 0 1px 5px;
+  box-shadow: rgba(0,0,0,0.5) 0 1px 5px;
   border-radius: 0;
 }
 .navbar-ghost .navbar-toggle:hover,
