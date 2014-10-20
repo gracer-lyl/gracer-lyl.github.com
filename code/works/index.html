@@ -1,0 +1,22 @@
+---
+layout: page
+title: "作品"
+description: 好的作品是一个人的名片
+group: navigation
+---
+{% include JB/setup %}
+
+<div class="well">获取所有的作品列表</div>
+
+{% for category in site.categories %}
+
+   {% if category[0] == "作品" %}
+  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+  <ul>
+    {% assign pages_list = category[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+  {% endif %}
+
+{% endfor %}
+
