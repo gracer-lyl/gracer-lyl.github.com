@@ -39,7 +39,7 @@ Usage:
       {% if this_year != next_year %}
         </ul>
         <h2>{{next_year}}年{{next_month}}月</h2>
-        <ul>
+        <ul class="list-group">
       {% else %}
         {% if this_month != next_month %}
           </ul>
