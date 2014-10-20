@@ -192,13 +192,13 @@ footer.page-wrap > div {
 }
 #footer-content {
   background: rgba(255,255,255,0.94);
-  color: #000;
-  font-family: Arial, sans-serif;
+  color: #444;
   font-size: 12px;
   padding: 10px;
   position: fixed;
   width: 100%;
   bottom: 0;
+  box-shadow: 0 0 1px 0px rgba(0,0,0,0.3),0 0 6px 2px rgba(0,0,0,0.15);
 }
 #footer-content p {
   text-align: center;
