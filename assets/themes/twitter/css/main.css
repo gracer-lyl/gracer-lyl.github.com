@@ -19,7 +19,7 @@
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html{
   color:#333;
-  background:#fff;
+  /*background:#fff;*/
   -webkit-text-size-adjust:100%;
   -ms-text-size-adjust:100%;
   text-rendering:optimizelegibility;
@@ -191,10 +191,10 @@ footer.page-wrap > div {
   margin-left: 170px;
 }
 #footer-content {
-  background: #FFF;
-  color: #8e9798;
+  background: rgba(255,255,255,0.8);
+  color: #000;
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   padding: 10px;
   position: fixed;
   width: 100%;
@@ -329,7 +329,7 @@ footer.page-wrap > div {
 ----------------------------------*/
 .post {
   position: relative;
-  background: #ffffff;
+  background: rgba(255,255,255,0.98);
   margin-bottom: 30px;
   border-radius: 5px;
   padding: 10px 20px;
@@ -523,7 +523,7 @@ footer.page-wrap > div {
 5. Bootstrap components
 ----------------------------------*/
 .navbar-ghost {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 40px;
   box-shadow: rgba(0,0,0,0.05) 0 1px 5px;
   border-radius: 0;
@@ -536,7 +536,7 @@ footer.page-wrap > div {
   background-color: #ffffff;
 }
 .navbar-ghost .navbar-nav > li > a {
-  color: #fff;
+  color: #1abc9c;
   font-size: 14px;
   text-align: center;
 }
