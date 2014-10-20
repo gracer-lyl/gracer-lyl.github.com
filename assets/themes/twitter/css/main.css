@@ -287,7 +287,7 @@ footer.page-wrap > div {
 }
 .pagination {
   background: #1abc9c;
-  border-radius: 0;
+  border-radius: 20px;
 }
 .pagination > li > a,
 .pagination > li > span {
@@ -310,9 +310,11 @@ footer.page-wrap > div {
 }
 .pagination li.disabled > span {
   background: transparent;
+  color: rgb(143,189,143);
 }
 .pagination li.disabled > span:hover {
   background: transparent;
+  color: rgb(143,189,143);
 }
 .pagination .page-number {
   border-left: 1px solid #EEE;
