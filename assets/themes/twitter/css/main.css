@@ -66,7 +66,7 @@ body {
 }
 /* 要注意表单元素并不继承父级 font 的问题 */
 body, button, input, select, textarea{
-  font:400 1em/1.8 Hiragino Sans GB, Microsoft Yahei, Avenir, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  font:400 1em/1.8 Helvetica, Hiragino Sans GB, Microsoft Yahei, Avenir, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
 a {
   color: #1abc9c;
@@ -87,6 +87,7 @@ a:hover {
 img {
   max-width: 100%;
 }
+p {color: #737C7F;}
 .page-wrap {
   margin: 0 auto;
   max-width: 1100px;
