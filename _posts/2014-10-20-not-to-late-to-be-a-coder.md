@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ［译］我二十四岁开始学习编程，想成为一名码农，是不是太晚了？"
+title: ［亮译］我二十四岁开始学习编程，想成为一名码农，是不是太晚了？"
 category: 阅读
-tags: 编程 自己
+tags: 编程 学习 思想
 ---
 {% include JB/setup %}
 
