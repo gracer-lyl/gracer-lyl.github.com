@@ -27,7 +27,7 @@ Usage:
     {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
   
     {% if forloop.first %}
-      <h2>{{this_year}}年{{this_month}}月</h2>
+      <h3>{{this_year}}年{{this_month}}月</h3>
       <ul class="list-group">
     {% endif %}
   
@@ -38,12 +38,12 @@ Usage:
     {% else %}
       {% if this_year != next_year %}
         </ul>
-        <h2>{{next_year}}年{{next_month}}月</h2>
+        <h3>{{next_year}}年{{next_month}}月</h3>
         <ul class="list-group">
       {% else %}
         {% if this_month != next_month %}
           </ul>
-          <h3>{{next_month}}</h3>
+          <h3>{{next_month}}月</h3>
           <ul>
         {% endif %}
       {% endif %}
