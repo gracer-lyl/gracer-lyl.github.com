@@ -1,0 +1,180 @@
+---
+layout: 
+group: 
+---
+{% include JB/setup %}
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>一号货车元旦抽奖活动</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="{{ BASE_PATH }}/assets/activityapp/trucklottery/css/m.css">
+          <script>
+             var phoneWidth = parseInt(window.screen.width);
+             var phoneScale = phoneWidth / 720;
+             var ua = navigator.userAgent;
+             if (/Android (\d+\.\d+)/.test(ua)) {
+                var version = parseFloat(RegExp.$1);
+                if (version > 2.3) {
+                    document.write('<meta name="viewport" content="width=720, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+                } else {
+                    document.write('<meta name="viewport" content="width=720, target-densitydpi=device-dpi">');
+                }
+             } else {
+                document.write('<meta name="viewport" content="width=720, user-scalable=no, target-densitydpi=device-dpi">');
+             }
+
+            window.__global_ajax_url = '{{ BASE_PATH }}/assets/activityapp/trucklottery/json/lottery.json';
+
+          </script>
+
+</head>
+<body class="app">
+<div class="container">
+    <div class="loading-wrap">
+            <div class="load">
+                <div class="rotate">
+                    <div class="colorfulPulse">
+                        <span class="item-1"></span>
+                        <span class="item-2"></span>
+                        <span class="item-3"></span>
+                        <span class="item-4"></span>
+                        <span class="item-5"></span>
+                        <span class="item-6"></span>
+                        <span class="item-7"></span>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="content" style="display: none;">
+      
+        <ul id="J_puk_list" class="puk-list">
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="box viewport-flip">
+                <a href="javascript:void(0);" class="list flip in"><img class="load-img" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/img/load_img.jpg" alt="纸牌正面"></a>
+                <a href="javascript:void(0);" class="list flip out">
+                    <div class="prize-rst">
+                      <p class="money">200</p>
+                      <p class="yuan">元</p>
+                    </div>
+                </a>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="lottery-tip" style="display: none;">
+            <p class="tip-m">恭喜您抽得<span class="tip-monty">200</span>元奖金</p>
+            <p class="tip-n">您可进入用户中心--我的账户中查看</p>
+        </div>
+
+        <!-- 微信分享Footer -->
+        <a href="javascript:void(0)" class="wx-link">分享到朋友圈</a>
+
+    </div>
+    
+</div>
+<script type="text/javascript" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="{{ BASE_PATH }}/assets/activityapp/trucklottery/js/lottery.js"></script>
+</body>
+</html>
