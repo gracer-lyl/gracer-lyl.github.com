@@ -44,7 +44,7 @@ Usage:
         {% if this_month != next_month %}
           </ul>
           <h3>{{next_month}}月</h3>
-          <ul>
+          <ul class="list-group">
         {% endif %}
       {% endif %}
     {% endif %}
