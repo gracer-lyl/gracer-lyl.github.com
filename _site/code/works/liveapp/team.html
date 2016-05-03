@@ -1,0 +1,51 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>房金所团队</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="/assets/liveapp/teamapp/css/m.min.css">
+    <script>
+    var phoneWidth = parseInt(window.screen.width);
+    var phoneScale = phoneWidth / 640;
+    var ua = navigator.userAgent;
+    if (/Android (\d+\.\d+)/.test(ua)) {
+        var version = parseFloat(RegExp.$1);
+        if (version > 2.3) {
+            document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+            document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+        }
+    } else {
+        document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+    }
+    </script>
+    <script data-main="/assets/liveapp/teamapp/js/application/initialize" src="/assets/liveapp/teamapp/js/vendor/require/require.js"></script>
+</head>
+
+<body class="app">
+    <div class="container">
+        <div class="loading-wrap">
+            <div class="load">
+                <div class="spinner">
+                    <div class="rect1"></div>
+                    <div class="rect2"></div>
+                    <div class="rect3"></div>
+                    <div class="rect4"></div>
+                    <div class="rect5"></div>
+                </div>
+                <p class="load-txt">正在加载中...</p>
+            </div>
+        </div>
+        <ul id="J-main" class="content-list" style="display: block;"></ul>
+        <div class="part2 notice-swipe-up"></div>
+    </div>
+
+    <a href="javascript:void(0);" class="u-globalAudio z-pause" style="display: none;"> <i class="icon-music"></i> <audio src="/assets/liveapp/teamapp/img/happynewyear.mp3" autoplay="autoplay" loop="loop"></audio><span class="">开启</span></a>
+
+    <div class="horizontal"><span>请翻转手机竖屏浏览</span></div>
+
+</body>
+</html>

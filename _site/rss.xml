@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Kissy小鬼</title>
+        <description>Kissy小鬼 - kissy小鬼</description>
+        <link>http://gracer-lyl.github.io</link>
+        <link>http://gracer-lyl.github.io</link>
+        <lastBuildDate>2016-05-03T09:07:37+08:00</lastBuildDate>
+        <pubDate>2016-05-03T09:07:37+08:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>也许文字才能保留长远些吧</title>
+                <description>
+&lt;p&gt;&lt;img src=&quot;/assets/images/family/son.jpg&quot; alt=&quot;My son&quot; title=&quot;My son&quot; /&gt;&lt;/p&gt;
+</description>
+                <link>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2016/05/03/maybe-i-can-write-something</link>
+                <guid>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2016/05/03/maybe-i-can-write-something</guid>
+                <pubDate>2016-05-03T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>Mac下Eclipse连接不上HMI A1手机的解决方法</title>
+                <description>
+&lt;p&gt;####&lt;strong&gt;环境&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Macbook Pro下的Eclipse Device，用作android开发&lt;/p&gt;
+
+&lt;p&gt;####&lt;strong&gt;故事&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;最开始，我使用了测试的三星S4，可以自动识别机子，但是我的黑米怎么插都不能正常识别，我还以为我这个手机太山寨了，不能识别了。网上查了很多资料，不靠谱啊！我发现：有时候你越是想找到东西就越找不到，这不，晚上洗过澡感觉有必要再试一下，要不然就入手红米Note了，我也不想额外花钱（老婆知道会生气的），幸好看到了http://blog.csdn.net/cooldragon/article/details/40212761这篇文章，很简短清晰，我试了，竟然ok了，老婆的破黑米终于焕发光彩了，嘿嘿，解决办法我就直接抄过来好了。&lt;/p&gt;
+
+&lt;p&gt;####&lt;strong&gt;解决办法&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;把Android手机开启调试模式，然后连接在我们的Mac OS上。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;选择Mac的 关于本机-&amp;gt;更多信息-&amp;gt; 系统报告-&amp;gt;找到usb选项，右边会出现一系列和usb相关的设备我们找到自己的Android设备并选中。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;选中后找到 供应商ID或叫厂商ID，我的HMI A1手机显示的供应商ID是：0x22da&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/images/mac_eclipse_hmi.png&quot; alt=&quot;hmi ok&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;打开Mac终端 输入： echo 0x2a45 » ~/.android/adb_usb.ini&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;然后重启adb后再打开eclipse 你会发现Android手机的设备显示了。这样的办法还可以解决Mac上其他android设备不显示的问题。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/images/mac_eclipse_hmi_ok.png&quot; alt=&quot;hmi&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;好了，睡觉～&lt;/p&gt;
+
+</description>
+                <link>http://gracer-lyl.github.io/android/2014/11/30/mac-eclipse-hmi_a1</link>
+                <guid>http://gracer-lyl.github.io/android/2014/11/30/mac-eclipse-hmi_a1</guid>
+                <pubDate>2014-11-30T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>人民日报：再次推荐极简主义生活方式！</title>
+                <description>
+&lt;blockquote&gt;
+  &lt;p&gt;导读：极简主义生活方式，是对自身的再认识，对自由的再定义。深入分析自己，首先了解什么对自己最重要，然后用有限的时间和精力，专注地追求，从而获得最大幸福。放弃不能带来效用的物品，控制徒增烦恼的精神活动，简单生活，从而获得最大的精神自由。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;###&lt;strong&gt;欲望极简&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;了解自己的真实欲望，不受外在潮流的影响，不盲从，不跟风。&lt;/p&gt;
+
+&lt;p&gt;把自己的精力全部用在自己最迫切的欲望上，如提升专业素养、照顾家庭、关心朋友、追求美食等。&lt;/p&gt;
+
+&lt;p&gt;###&lt;strong&gt;精神极简&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;了解、选择、专注于1-3项自己真正想从事的精神活动，充分学习、提高。不盲目浪费自己的时间与精力。&lt;/p&gt;
+
+&lt;p&gt;###&lt;strong&gt;物质极简&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;将家中超过一年不用的物品丢弃、送人、出售或捐赠。比如看过的杂志、书，不再穿的衣服，早先收到的各种礼物或装饰品。&lt;/p&gt;
+
+&lt;p&gt;明确自己的欲望和需求，不买不需要的物品。&lt;/p&gt;
+
+&lt;p&gt;确有必要的物品，买最好的，充分使用它。&lt;/p&gt;
+
+&lt;p&gt;不囤东西，不用便宜货、次品。&lt;/p&gt;
+
+&lt;p&gt;用布袋，代替塑料袋和纸袋。&lt;/p&gt;
+
+&lt;p&gt;用一支好用的钢笔，替代堆积如山的中性笔。&lt;/p&gt;
+
+&lt;p&gt;用瓷杯、钢杯代替纸杯。&lt;/p&gt;
+
+&lt;p&gt;用电脑写东西，少用纸。养成纸质文件扫描、存档的习惯。 　&lt;/p&gt;
+
+&lt;p&gt;整合、精简电源线、充电设备。不重复购买电子产品。&lt;/p&gt;
+
+&lt;p&gt;精简出门行头，只带“身手钥纸钱”。 　&lt;/p&gt;
+
+&lt;p&gt;精简银行卡，仅保留一张借记卡一张信用卡。&lt;/p&gt;
+
+&lt;p&gt;###&lt;strong&gt;信息极简&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;精简信息输入源头，减少使用社交网络、即时通讯。少看微博、朋友圈。&lt;/p&gt;
+
+&lt;p&gt;定期远离互联网、远离手机，避免信息骚扰。&lt;/p&gt;
+
+&lt;p&gt;不关注与己无关的娱乐、社会新闻。 　&lt;/p&gt;
+
+&lt;p&gt;精简电子邮箱数量。&lt;/p&gt;
+
+&lt;p&gt;关注少而精，宁缺毋滥。时间线干净。&lt;/p&gt;
+
+&lt;p&gt;APP使用少而精，删除长期不使用的应用。&lt;/p&gt;
+
+&lt;p&gt;###&lt;strong&gt;表达极简&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;写东西、说话，尽可能简单、直接、清楚。&lt;/p&gt;
+
+&lt;p&gt;多用名词、动词。少用形容词、副词。&lt;/p&gt;
+
+&lt;p&gt;###&lt;strong&gt;工作极简&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;使用有效的GTD方法，不拖延。&lt;/p&gt;
+
+&lt;p&gt;及时清理电子邮件，不要让它们堆积起来。&lt;/p&gt;
+
+&lt;p&gt;一次只专注做一件事，尽可能不做Multi-task。&lt;/p&gt;
+
+&lt;p&gt;##&lt;strong&gt;生活极简&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;慢生活。 　　&lt;/p&gt;
+
+&lt;p&gt;不做无效社交。 　　&lt;/p&gt;
+
+&lt;p&gt;锻炼。 　　&lt;/p&gt;
+
+&lt;p&gt;穿着简洁、不花哨。 　　&lt;/p&gt;
+
+&lt;p&gt;少吃含有添加剂的食品。 　　&lt;/p&gt;
+
+&lt;p&gt;喝白水和纯果汁，不喝添加了大量化学成分的碳酸饮料和果汁。 　　&lt;/p&gt;
+
+&lt;p&gt;实践极简主义的方法、角度有很多，关键是要行动起来。&lt;/p&gt;
+
+</description>
+                <link>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/11/20/minimalism</link>
+                <guid>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/11/20/minimalism</guid>
+                <pubDate>2014-11-20T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>感谢老婆给了我完整的小幸福</title>
+                <description>
+&lt;p&gt;###从那一刻起，我将不一样&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/limingbo.jpg&quot; alt=&quot;to be a dad&quot; title=&quot;to be a dad&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2014年10月29日. 傍晚，我和顶着大肚子的老婆漫步在乡间的马路上，走到一半路的时候情况好像有些不对劲了，老婆肚子疼得蹲了下来，我扶着她以保持平衡，一阵子就站起来了；过不到十分钟又开始相同的节奏，我们一起这样子慢慢地走到家。&lt;/p&gt;
+
+&lt;p&gt;回到家后，家人都比较担心，我打电话让老爸开车回家，老婆坚强地忍着疼，并感觉宫缩是否有规律，我也跟她一起算每次疼的时间间隔，发现很有规律而且间隔越来越短；很快老爸从关林回来，于是我们就开始速度准备东东了，大包小包七八个，塞得后车厢满满的，晚上9点差不多我们出发开始去洛阳妇幼中心。&lt;/p&gt;
+
+&lt;p&gt;很快就到了妇幼，到了妇幼后，找到了5楼的产科，老婆去了检查室，结果宫口已经开一指了，但是我们没有病床床位了，我跑了4个产区，可是都是没有病床了，医生让我们将就着在检查室里度夜，于是大包小包都搬运过来，这时老婆越来越难受了，根本睡不着，又让医生看了宫缩的情况，电脑显示4分钟一次宫缩，20分钟后几乎3分钟一次宫缩了，于是医生又看了宫口的情况，医生说我媳妇挺坚持的，都开三指了还能撑着走动；护士立马带我们去了二楼产房，我们都很忐忑，我们让老婆带着吃的东西，看着老婆走进产房的那一刻，突然有种莫名的感动，我的眼泪哗哗哗流了出来，接下来就是老婆的辛苦以及我们家人漫长的等待。&lt;/p&gt;
+
+&lt;p&gt;有一种等待是那么的让人捉急，我和老爸在产房外面的大厅里一直等待，我没怎么合过眼，感觉完全没有瞌睡劲，这种事也是可以理解的，老爸也是一夜没有在凳子上睡好，醒一会儿睡一会儿，我让老妈先去检查室里睡着，顺便看着东西。一直焦急地等到了早上5点多，爸妈都在身边，我问了产房的医生关于我老婆的情况，医生说老婆使不上劲，倒是挺能说，也是很犟，孩子还没生下来。我心里那个急，没办法，坚持住呀，老婆。于是我顺便把自己刚剩到小米粥让医生送给老婆喝，为最后冲刺打打气。爸妈都吃过饭后，我打听到病床这时候还不会有空出来的，老婆生完孩子后还要呆在产房，等有空出的病床我们才能住进去。老爸先去公司有点小事，我和老妈一直在外面等；&lt;/p&gt;
+
+&lt;p&gt;等到7点多医生把我们的一些产房备用品拿了出来，说我老婆生完了，但是还要等有合适的病床空出才能出来，好吧，我就再等个几个小时吧；8点08分老婆给我打电话了，哭的是唏哩哗啦，不在话下，老婆大概的意思是孩子顺产，6.4斤，男娃，当妈太不容易了，以后一家人要幸福地生活。我安慰她，让她不要哭，不用太激动，一切都过去了，让她先好好休息再说。哎，通话不到一分钟，但是我的眼睛里也涌出了泪水，是的，老婆，你太不容易了！&lt;/p&gt;
+
+&lt;p&gt;大概10点多时候，我在产房门外听到里面产车缓缓驶出来的声音，我知道我的时刻来了，看到老婆疲惫而开心的脸，看到孩子被裹得严严实实，很安静，母子平安，我内心十分激动；谢谢医生们，你们辛苦了！我推着产车把母子从2楼送到了5楼已经腾出的25/26号病房，是的，这几天我需要无微不至地呵护母子二人，我已经做好了吃苦的准备，但比起老婆的辛苦，这点苦又算得了什么呢，作为男人我应该做得好一点。&lt;/p&gt;
+
+&lt;p&gt;一路走来，我在上海，她在洛阳，距离虽远，但是我们一直很相爱。每每想起老婆一个人在学校既要教书授课，还要洗衣做饭，更要照顾好小童童，我知道这10个月来，她过得并不容易，很辛苦很辛苦，但是她还是很坚持，很勇敢，也不怎么抱怨我；我能做到的就是要包容她，安慰她，购置一些用品等；我们也是幸运的，怀胎十月期间，宝宝没有怎么折腾老婆，给了老婆安全而舒服感受；不管怎么样，我们收获了可爱的宝宝，这一切都离不开老婆的功劳，谢谢你老婆！&lt;/p&gt;
+
+&lt;p&gt;［待完成］&lt;/p&gt;
+</description>
+                <link>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/11/13/writting-for-my-wife-and-baby</link>
+                <guid>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/11/13/writting-for-my-wife-and-baby</guid>
+                <pubDate>2014-11-13T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>网站UI设计，激发你的灵感</title>
+                <description>
+&lt;p&gt;###设计类
+***
+1. &lt;a href=&quot;https://dribbble.com/&quot;&gt;Dribbble&lt;/a&gt; 是一个面向创作家、艺术工作者、设计师等创意类作品的人群，提供作品在线服务，供网友在线查看已经完成的作品或者正在创作的作品的交流网站。Dribbble[1] 还针对手机推出了相应的软件，可以通过苹果应用商店下载使用 Dribbble移动应用。
+2. &lt;a href=&quot;http://www.pinterest.com&quot;&gt;Pinterest&lt;/a&gt; 采用的是瀑布流的形式展现图片内容，无需用户翻页，新的图片不断自动加载在页面底端，让用户不断的发现新的图片。&lt;br /&gt;
+Pinterest堪称图片版的Twitter，网民可以将感兴趣的图片在Pinterest保存，其他网友可以关注，也可以转发图片。索尼等许多公司也在Pinterest建立了主页，用图片营销旗下的产品和服务。&lt;br /&gt;
+有多家机构称，在移动互联网时代，网民在移动设备上更喜欢观看图片，Pinterest、Snapchat、Instagram等图片社交平台受到用户热捧，目前市场估值也明显高于其他“文本”社交网络。
+3. &lt;a href=&quot;http://www.zcool.com.cn&quot;&gt;站酷&lt;/a&gt;  是中国最具人气的设计师互动平台，2006年8月创立于北京。站酷网聚集了中国绝大部分的专业设计师、插画师、摄影师，艺术院校师生等创意人群，会员交流涉及艺术创作、广告创意、交互设计、影视动漫、时尚文化等诸多创意文化领域，是中国最活跃的原创设计交流平台。&lt;/p&gt;
+
+</description>
+                <link>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/10/23/websites-about-design</link>
+                <guid>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/10/23/websites-about-design</guid>
+                <pubDate>2014-10-23T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>［亮译］我二十四岁开始学习编程，想成为一名码农，是不是太晚了？"</title>
+                <description>
+&lt;p&gt;&lt;img src=&quot;/assets/images/not_to_be_late_to_be_coder.jpg&quot; alt=&quot;to be a coder&quot; title=&quot;to be a coder&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Quora题主&lt;/strong&gt;：这是一个我以前看到过很多次的老问题了，对于我来说，答案很简单：你喜欢做什么？&lt;br /&gt;
+编程有许多种类型，比如web开发者软件工程师，有许多的编程语言和开发环境，他们一直在不断演化，所以年龄根本不是问题，因为编程需要用到不断演进的工具。你现在学习的东西，也许5年或10年后就过时了。任何事业的关键点在于你需要什么，并且是如何得到它的。我开始编程到现在已经40年了：我的技术工作职位也从程序员到软件工程师，从软件工程师到系统管理员，又从系统管理员到IT经理，周而复始。任何公司都有技术和管理两个发展方向，一般5年开始做选择，我在不同的公司和学校都经历过。&lt;br /&gt;
+现在我是个独立的咨询师，我有自由选择做自己想做的事情，我很幸运地在谋生的同时做自己喜欢做的事情，而且乐在其中。这一切开始于，我22岁开始上的第一堂编程课程，24岁时找到第一份编程工作。&lt;em&gt;做你喜欢做的事情，永远都不晚。&lt;/em&gt;如果你有更多的问题，可以问我：我很乐于帮助那些刚入行的编程人员实现他们的目标和梦想。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Erin Parker的回复：（7.8k个赞）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;什么时候都不晚，一年之内能发生很多事情，有可能会会让你大吃一惊。&lt;/p&gt;
+
+&lt;p&gt;我专业学的是经济。当我23岁时，我偶然决定去参加一个Rails交流会，在那里你能在一天内学会如何开发出一个普通的ruby on rails应用。然后我开发了个普通的rails应用，并且非常享受；那天一颗种子就此种下。&lt;/p&gt;
+
+&lt;p&gt;数月之后，对于我想构建的网站，我有了想法。尽管我的想法还不清晰，我想象着这个产品会鼓励女性成为社会的中坚力量，我想它要不是一个职业规划的站点，要不是一个健康领域的站点；我很确定地产品命名为Spitfire，我强烈地感觉到这样的一个产品是非常必要的，并且我感觉我有好的视角和愿景去实现它。&lt;/p&gt;
+
+&lt;p&gt;尽管我还没有下定决心去学习编程，不过我还是画了如下这张草图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/not_to_be_late_to_be_coder_1.jpg&quot; alt=&quot;mocks&quot; title=&quot;mocks&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我通过email把这个草图发给朋友们，并且得到他们的反馈。&lt;/p&gt;
+
+&lt;p&gt;碰巧在那个节骨眼上，我我正热衷于举重，并取得一些成果；同时，让我非常沮丧的是要找一些与女性举重相关的高质量又靠谱的资料非常困难，所以为了解决这些问题，我觉得该做点什么事情了。&lt;/p&gt;
+
+&lt;p&gt;最后，我决定付诸行动。朋友们总是问我如何保持身材，如何举重，如何健康饮食。我决定致力于学习ruby on rails，并且把这些问题和答案发布上去。&lt;/p&gt;
+
+&lt;p&gt;我大致知道，如果我学习编程，即使是没学成，我也至少是失败于构建一个能够把握所学的普及给潜在的数以百万计的人的这么个网站；就事情本身而言，依然是值得付出的工作。&lt;/p&gt;
+
+&lt;p&gt;然而就在同时，我决定只许成功，不许失败。除非把我头脑中预想的Spitfire该有的样子实现了，否则我不会善罢干休的。我知道如果我历经艰难并坚持下来，那么最终的结果将一定不会辜负我。&lt;/p&gt;
+
+&lt;p&gt;我开始通过各种免费的资源废寝忘食地学习ruby on rails，比如Learn Ruby the Hard Way、Try Ruby、Codecademy、Michael Hartl的书、Why’s Poignant Guide to Ruby、the Rails Guides以及我的最爱－Railscasts。&lt;/p&gt;
+
+&lt;p&gt;我很有恒心，如果某些内容第一次碰到时候不明白，我不太在意，我会一遍遍回顾它至到它变得清晰。我也会查找概念中不同的解释，也会问我的朋友们。当在咖啡馆时，如果我在编码，如果根据笔记本电脑的贴纸看出我对面的童鞋是一个程序员的话，我会友好地问他们是否能够帮忙（通过这种方法，我交了很多朋友，他们中的一些现在仍然是我非常非常要好的朋友）。&lt;/p&gt;
+
+&lt;p&gt;我会参加很多开发者交流会，特别是Women Who Code，很喜欢他们的“一交流会一个新教程”的形式以及所有对Ruby小组交流会，因为在这里很容易得到帮助和解惑。&lt;/p&gt;
+
+&lt;p&gt;我坚持了几个月，渐渐地，我头脑中的想法一点点蹦出来，你仍然能在这里看到我早期的很多项目：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spitfiredarkstar.herokuap&quot;&gt;http://spitfiredarkstar.herokuap…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spitfiredauntless.herokua&quot;&gt;http://spitfiredauntless.herokua…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spitfirehellcat.herokuapp&quot;&gt;http://spitfirehellcat.herokuapp…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spitfireocelot.herokuapp&quot;&gt;https://spitfireocelot.herokuapp…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我投入最大精力的是这个：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spitfirehellcat.herokuapp&quot;&gt;http://spitfirehellcat.herokuapp…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/not_to_be_late_to_be_coder_2.png&quot; alt=&quot;herokuapp&quot; title=&quot;herokuapp&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这个站点功能丰富。它界面美观，交互体验好，并且是我学过的所有ruby on rails的好特性的集大成者。然而不幸的是，没有人使用它！&lt;/p&gt;
+
+&lt;p&gt;兴奋和失落同时萦绕着我，我感觉我有了很棒的设计技巧，但是我做出来的东西没有人想使用。&lt;/p&gt;
+
+&lt;p&gt;当我问我朋友，他们为什么不去使用它后，我得知他们真正想要的是“就告诉他们怎么做就行了”，并且他们想要那些在他们手机上看起来不错的东西，能够让他们在健身房里用做参考。&lt;/p&gt;
+
+&lt;p&gt;所以我决定完全改变方向：去学习jQuery Mobile，并且我做了这个：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spitfirewarrior.herokuapp.com/&quot;&gt;http://spitfirewarrior.herokuapp…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/not_to_be_late_to_be_coder_3.png&quot; alt=&quot;herokuapp&quot; title=&quot;herokuapp&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;令我非常吃惊的是金冠这个应用界面粗糙、功能简单，但是人们在使用它！并且他们想要更多的东西，他们想要它像gasp这样子的原生iOS应用一样。&lt;/p&gt;
+
+&lt;p&gt;在那个时间节点上，自从我开始学习rails，已经过去大约半年了。&lt;/p&gt;
+
+&lt;p&gt;我意识到如果我想走得更长远，我不得不学习iOS开发了。我确实已经成功使用jQuery Mobile，但是很快意识到它仅仅是合作原型（或者非常简单大应用）&lt;/p&gt;
+
+&lt;p&gt;大约2013年四月，我下了决定，你知道是什么吗？我24岁了，我要成为一名iOS开发者。即使我不是计算机专业出身那又何妨呢？我比大多数人有动力和决心。他们也许比我聪明，但是我从不会放弃。我已经走了很远一段路，为什么现在要停下来？&lt;/p&gt;
+
+&lt;p&gt;所以我做了同样点事情，我贪婪地学习我能获取到到iOS资源，我做了所有的练习题，挑战题，并且从头到尾完成我手头上的每一本书，O’Reilly系列书籍非常贵，对于那些能够发给我免费PDF副本的朋友们，我感激不尽。&lt;/p&gt;
+
+&lt;p&gt;我经常性地参加Women Who Code iOS交流会，并且从Big Nerd Ranch的关于Obj-C和iOS的书里，从Ray Wenderlich的教程里，从苹果的官方文档里受益匪浅。&lt;/p&gt;
+
+&lt;p&gt;我开发了很多小的app应用（这就是你怎么学成的）！我给自己许下承诺，我从来不会把任何技术想象为困难的，因为我觉得那就是在自己的学习中加了一块天花板。所以，我无畏地，学习了很多让大部分iOS开发者望而却步的内容，尽管现在我没有使用到这些内容，我意识到它会是我成为一名更牛多开发者，尽管我也付出了很多漫长的夜晚。&lt;/p&gt;
+
+&lt;p&gt;下面是一张我参加技术交流会时做技术演讲的照片，主题是如何开发自定义的Rails API，如何通过AFNetworking把那些数据发送到你的iPhone应用上。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/not_to_be_late_to_be_coder.jpg&quot; alt=&quot;to be a coder&quot; title=&quot;to be a coder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;那是2013年的5月，24岁。我自己完成的演讲…尽管我刚刚学习了我演讲里面的那些知识。我感觉自己很像一个”iOS骗子”，并且刚刚退去“Rails骗子”的感觉。&lt;/p&gt;
+
+&lt;p&gt;几个月就这样过去。一点点的，我做得越来越好。诚然，iOS是用户界面比重很高的系统，如果你没有学习设计，那么你的应用将看起来很丑陋。把你自己从前端解放出来基本是不可能的。所以我决定通过Hack Design上面的课程来学习设计和Photoshop。&lt;/p&gt;
+
+&lt;p&gt;Photoshop比学习编程简单得多，所以很快我就设计了这些看起来不错的模拟程序。&lt;/p&gt;
+
+&lt;p&gt;后来，大概在2013年10月份，我把模拟程序转化为”Spitfire Athlete pre-Alpha”应用。下面是该程序运行在我的手机上的一个截屏。&lt;/p&gt;
+
+&lt;p&gt;经过几个月的使用，很多热情的用户开始要求开发更多的功能，我觉得是时候把我的这份疯狂热情转化为一个初创公司，并且我雇佣了一个厉害的创业伙伴，Nidhi Kulkarni，一个出色的MIT计算机毕业生，像我一样，她也是个运动员(她在MIT的时候完成了D1 rowing)。&lt;/p&gt;
+
+&lt;p&gt;有了两个技术人员，两个积极向上的女士掌控着Spitfire的方向。我感觉我们的效率提高了10倍。我们大概在2013年的11月份开始合作，我处于24岁的尾巴上，知道自己正在追求一些令人期待的东西。&lt;/p&gt;
+
+&lt;p&gt;我们一起参加了Code Path iOS Mobile训练营，一个针对专业iOS开发人员的训练营。我们完成了”Spitfire Athlete pre-Alpha”，在demo那天(由硅谷的顶级软件公司的总监评价)，我们赢得了”Best iOS App” and “Best Overall App”。那真是太酷了，因为我是那整堂课程里面的唯一一位非计算机专业学生。&lt;/p&gt;
+
+&lt;p&gt;2014年1月份，我25岁了。2014年4月我们把它发布到App Store，并被推荐于最佳新应用的首页，排名所有健康类App的首位。现在我们有数万用户，收到了很多的赞许邮件，它让我深深地觉得一路的坚持是值得的。&lt;/p&gt;
+
+&lt;p&gt;你能够从App Store下载该应用: Spitfire Athlete&lt;/p&gt;
+
+&lt;p&gt;我之所以决定今晚写下这些答复，是由于最近我也想重新回顾我的iOS开发资料。我曾想，“花一年的时间？绝不，时间如白驹过隙。”。然后我记起了第一次开始的感觉。&lt;/p&gt;
+
+&lt;p&gt;我希望这个回复能够激励你以及那些读它来学习如何编程的人，并且把你所爱好的东西转化为实实在在的事物，因为开发了一个数万人喜欢的应用之后的美妙感觉，难以言表。&lt;/p&gt;
+
+&lt;p&gt;个人感悟：&lt;/p&gt;
+
+&lt;p&gt;1，无论在任何时候开始学习一门语言都不晚，不要自怨自艾&lt;/p&gt;
+
+&lt;p&gt;2，要保持一种新鲜的感觉，可以强迫自己每年接触一种新的语言，并加以学习实践，也许你会发现自己更擅长的东西。&lt;/p&gt;
+
+&lt;p&gt;3，保持对知识的饥渴，让自己迅速成长，而不要太浮躁，三天打鱼两天晒网。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;下午12:08 &lt;a href=&quot;http://www.quora.com/I-am-24-years-old-and-just-started-learning-coding-I-want-to-be-a-programmer-Am-I-too-late-in-the-game/answer/Erin-Parker&quot;&gt;一篇值得阅读的文章&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+                <link>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/10/20/not-to-late-to-be-a-coder</link>
+                <guid>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/10/20/not-to-late-to-be-a-coder</guid>
+                <pubDate>2014-10-20T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>写一些东西吧</title>
+                <description>
+&lt;p&gt;content&lt;/p&gt;
+</description>
+                <link>http://gracer-lyl.github.io/2014/10/14/to-write-something</link>
+                <guid>http://gracer-lyl.github.io/2014/10/14/to-write-something</guid>
+                <pubDate>2014-10-14T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>2015年kissy小鬼年度计划</title>
+                <description>
+&lt;p&gt;&lt;img src=&quot;/assets/images/the_plan_2015.jpg&quot; alt=&quot;more better&quot; title=&quot;more better&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;###成长目标：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;开发一套自己的H5组件库，并加以推广&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;开发出一套个人的css动画库&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;打造属于自己的移动App应用（Android和Ios）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;一个月看一本技术书籍、一本非技术类&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;生产更多、更棒的liveApp应用&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;###家庭目标：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;洛阳买房子&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;带一家人到普陀山游玩（如果有可能小家庭三亚游）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;考过驾照&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;###个人目标：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Macbook Pro 294&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;好睡眠&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;好身体&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;吃遍上海几十家最著名的面馆&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+                <link>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/01/05/plan-for-my-2015</link>
+                <guid>http://gracer-lyl.github.io/%E9%98%85%E8%AF%BB/2014/01/05/plan-for-my-2015</guid>
+                <pubDate>2014-01-05T00:00:00+08:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

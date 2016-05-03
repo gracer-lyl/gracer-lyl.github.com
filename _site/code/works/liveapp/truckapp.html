@@ -1,0 +1,127 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>一号货车</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="/assets/liveapp/truckapp/css/m.min.css">
+          <script>
+             var phoneWidth = parseInt(window.screen.width);
+             var phoneScale = phoneWidth / 640;
+             var ua = navigator.userAgent;
+             if (/Android (\d+\.\d+)/.test(ua)) {
+                var version = parseFloat(RegExp.$1);
+                if (version > 2.3) {
+                    document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+                } else {
+                    document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+                }
+             } else {
+                document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+             }
+          </script>
+          <script data-main="/assets/liveapp/truckapp/js/application/initialize" src="/assets/liveapp/truckapp/js/vendor/require/require.js"></script>
+</head>
+<body class="app">
+<div class="container">
+    <div class="loading-wrap">
+            <div class="load">
+                <div class="rotate">
+                    <div class="colorfulPulse">
+                        <span class="item-1"></span>
+                        <span class="item-2"></span>
+                        <span class="item-3"></span>
+                        <span class="item-4"></span>
+                        <span class="item-5"></span>
+                        <span class="item-6"></span>
+                        <span class="item-7"></span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <ul id="J-main" class="content-list" style="display: block;"></ul>
+
+    <div class="part2 notice-swipe-up"></div>
+    
+</div>
+
+<a href="javascript:void(0);" class="u-globalAudio z-pause" style="display: none;"> <i class="icon-music"></i> <audio src="/assets/liveapp/truckapp/img/wd.mp3" autoplay="autoplay" loop="loop"></audio> <span class="">开启</span></a>
+
+<div class="horizontal"><span>请翻转手机竖屏浏览</span></div>
+
+<script>
+    document.title="一号货车";
+    // 上线后这个路径要改一下（绝对路径）
+    var shareImgUrl     = "/assets/liveapp/truckapp/img/p3_logo.png";
+    var sharePageUrl    = window.location.href;
+    var shareDesc       = "一号货车-货主的第一专属车队，司机收入的第一来源！";
+    var shareTitle = "这么任性的一款软件，你造么？";
+    var appid = '';
+
+function shareFriend() 
+{
+    try
+    {
+        WeixinJSBridge.invoke('sendAppMessage',{
+            "appid": appid,
+            "img_url": shareImgUrl,
+            "img_width": "200",
+            "img_height": "200",
+            "link": sharePageUrl,
+            "desc": shareDesc,
+            "title": shareTitle
+            }, function(res) {
+        });
+    }
+    catch(ex){}
+}
+function shareTimeline() 
+{
+    try
+    {
+        WeixinJSBridge.invoke('shareTimeline',{
+            "img_url": shareImgUrl,
+            "img_width": "200",
+            "img_height": "200",
+            "link": sharePageUrl,
+            "desc": shareDesc,
+            "title": shareTitle
+            }, function(res) {
+        });
+    }
+    catch(ex){}
+}
+function shareWeibo() 
+{
+    try
+    {
+        WeixinJSBridge.invoke('shareWeibo',{
+            "content": shareDesc,
+            "url": sharePageUrl,
+        }, function(res) {
+        });
+    }
+    catch(ex){}
+}
+
+try
+{
+    document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+        WeixinJSBridge.on('menu:share:appmessage', function(argv){
+            shareFriend();
+        });
+        WeixinJSBridge.on('menu:share:timeline', function(argv){
+            shareTimeline();
+        });
+        WeixinJSBridge.on('menu:share:weibo', function(argv){
+            shareWeibo();
+        });
+    }, false);  
+}
+catch(ex){}
+</script>
+  
+</body>
+</html>
